@@ -53,3 +53,4 @@ function displayInitialCustomImage() {
 
 // Display the initial custom image
 displayInitialCustomImage();
+
