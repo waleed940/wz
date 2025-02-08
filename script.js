@@ -8,7 +8,7 @@ function selectOption(option) {
         displayParagraph(); // Display the paragraph
     } else if (option === 'no') {
         // Change text on the "No" button to "You sure?"
-        document.getElementById('no-button').innerText = 'You sure?'; 
+        document.getElementById('no-button').innerText = 'ZAINAB PLEASE?'; 
         // Increase font size of "Yes" button
         var yesButton = document.getElementById('yes-button');
         var currentFontSize = window.getComputedStyle(yesButton).getPropertyValue('font-size');
@@ -23,7 +23,7 @@ function selectOption(option) {
 function displayParagraph() {
     var textContainer = document.getElementById('text-container');
     var paragraph = document.createElement('p');
-    paragraph.textContent = 'My dear Zainab, thank you for choosing me as your Valentine. Second year in a row now, so I think you might have a lil crush on me. Seriously though, after 545 days AND COUNTING, you have always shown me ways to love you more and more. You know I love you, but I love you more than you know. You are my heart, my soul, my mind, my moon, my whole. I will never love anybody as much as I love you. THANK YOU FOR EVERYTHING. HAPPY VALENTINE!!!'; // Replace with your message
+    paragraph.textContent = 'My dear Zainab, thank you for choosing me as your Valentine. Second year in a row now, so I think you might have a lil crush on me. Seriously though, after 545 days AND COUNTING, you have always shown me ways to love you more and more. You know I love you, but I love you more than you know. You are my heart, my soul, my mind, my moon, my whole. I will never love anybody as much as I love you. You do so much for me and I will always appreciate it, your vns brighten my day when I get to hear your voice, your sweet SWEET messages warms my heart whenever you reassure me and lastly your VLOGS I LOVE THEM SO MUCH MAN. Zainab I want you to know that no matter what I am always proud of you and you do more than enough. InshAllah when we get married we can do soooooooo many valentine dates together in person but for now ig I will make websites for you Im sorry this isnt much I tried my best xx but THANK YOU FOR EVERYTHING. HAPPY VALENTINE!!!'; // Replace with your message
     textContainer.appendChild(paragraph);
 }
 
