@@ -1,6 +1,6 @@
 // Function to handle button click events
 function selectOption(option) {
-    if (option === 'yes') {
+    if (option === 'Yes') {
         // Change background to light pink
         document.body.style.backgroundColor = '#ffccdd'; // Light pink color
         document.getElementById('question').style.display = 'none'; // Hide the question
