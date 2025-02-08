@@ -1,14 +1,14 @@
 // Function to handle button click events
 function selectOption(option) {
-    if (option === 'Yes') {
+    if (option === 'yes') {
         // Change background to light pink
         document.body.style.backgroundColor = '#ffccdd'; // Light pink color
         document.getElementById('question').style.display = 'none'; // Hide the question
         displayCustomImage(); // Display the chosen image
         displayParagraph(); // Display the paragraph
     } else if (option === 'no') {
-        // Change text on the "No" button to "ZAINAB PLEASE"
-        document.getElementById('no-button').innerText = 'ZAINAB PLEASE'; 
+        // Change text on the "No" button to "You sure?"
+        document.getElementById('no-button').innerText = 'You sure?'; 
         // Increase font size of "Yes" button
         var yesButton = document.getElementById('yes-button');
         var currentFontSize = window.getComputedStyle(yesButton).getPropertyValue('font-size');
@@ -22,12 +22,8 @@ function selectOption(option) {
 // Function to display a paragraph
 function displayParagraph() {
     var textContainer = document.getElementById('text-container');
-    textContainer.innerHTML = ''; // Clear previous content
     var paragraph = document.createElement('p');
-    paragraph.textContent = 'My dear Zainab, thank you for choosing me as your Valentine. Second year in a row now, so I think you might have a lil crush on me. Seriously though, after 545 days AND COUNTING, you have always shown me ways to love you more and more. You know I love you, but I love you more than you know. You are my heart, my soul, my mind, my moon, my whole. I will never love anybody as much as I love you. THANK YOU FOR EVERYTHING. HAPPY VALENTINE!!!' ; 
-    paragraph.style.fontSize = '18px'; // Adjust text size if needed
-    paragraph.style.textAlign = 'center'; // Center align the text
-    paragraph.style.marginTop = '20px';
+    paragraph.textContent = 'My dear Zainab, thank you for choosing me as your Valentine. Second year in a row now, so I think you might have a lil crush on me. Seriously though, after 545 days AND COUNTING, you have always shown me ways to love you more and more. You know I love you, but I love you more than you know. You are my heart, my soul, my mind, my moon, my whole. I will never love anybody as much as I love you. THANK YOU FOR EVERYTHING. HAPPY VALENTINE!!!'; // Replace with your message
     textContainer.appendChild(paragraph);
 }
 
@@ -57,4 +53,3 @@ function displayInitialCustomImage() {
 
 // Display the initial custom image
 displayInitialCustomImage();
-
